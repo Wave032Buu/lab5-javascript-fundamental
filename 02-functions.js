@@ -21,8 +21,7 @@ console.log("\nFunction Expression:");
 console.log("add(5, 3):", add(5, 3));
 console.log("add(10, 20):", add(10, 20));
 // ─────────────────────────────────
-// 3. Arrow Functions (Modern!) -- สํ
-าคัญมาก;
+// 3. Arrow Functions (Modern!) -- สําคัญมาก;
 // ─────────────────────────────────
 // Full syntax
 const multiply = (a, b) => {
