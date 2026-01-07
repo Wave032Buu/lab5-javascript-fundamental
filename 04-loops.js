@@ -43,8 +43,7 @@ fruits.forEach((fruit, index) => {
   console.log(` ${index}: ${fruit}`);
 });
 // ─────────────────────────────────
-// 6. map (transform to new array) -- สํ
-าคัญมาก;
+// 6. map (transform to new array) -- สําคัญมาก;
 // ─────────────────────────────────
 const numbers = [1, 2, 3, 4, 5];
 console.log("\nmap - transform elements:");
@@ -56,8 +55,7 @@ console.log("Squared:", squared);
 const asStrings = numbers.map((n) => `Number: ${n}`);
 console.log("As strings:", asStrings);
 // ─────────────────────────────────
-// 7. filter (select matching elements) -- สํ
-าคัญมาก;
+// 7. filter (select matching elements) -- สําคัญมาก;
 // ─────────────────────────────────
 console.log("\nfilter - select elements:");
 const evens = numbers.filter((n) => n % 2 === 0);
@@ -67,8 +65,7 @@ console.log("Odd numbers:", odds);
 const greaterThan2 = numbers.filter((n) => n > 2);
 console.log("Numbers > 2:", greaterThan2);
 // ─────────────────────────────────
-// 8. reduce (accumulate to single value) -- สํ
-าคัญมาก;
+// 8. reduce (accumulate to single value) -- สําคัญมาก;
 // ─────────────────────────────────
 console.log("\nreduce - accumulate:");
 const sum = numbers.reduce((total, n) => total + n, 0);
@@ -85,8 +82,7 @@ const wordCount = words.reduce((counts, word) => {
 }, {});
 console.log("Word count:", wordCount);
 // ─────────────────────────────────
-// 9. Chaining methods -- สํ
-าคัญมาก;
+// 9. Chaining methods -- สําคัญมาก;
 // ─────────────────────────────────
 console.log("\nMethod chaining:");
 const data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

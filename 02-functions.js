@@ -12,8 +12,7 @@ console.log("Function Declaration:");
 console.log(greet("John"));
 console.log(greet("Alice"));
 // ─────────────────────────────────
-// 2. Function Expression -- สํ
-าคัญมาก;
+// 2. Function Expression -- สําคัญมาก;
 // ─────────────────────────────────
 const add = function (a, b) {
   return a + b;
@@ -53,8 +52,7 @@ console.log(introduce("John")); // Name only
 console.log(introduce("John", 25)); // Name + age
 console.log(introduce("John", 25, "Bangkok")); // All
 // ─────────────────────────────────
-// 5. Rest Parameters (...args) -- สํ
-าคัญมาก;
+// 5. Rest Parameters (...args) -- สําคัญมาก;
 // ─────────────────────────────────
 function sum(...numbers) {
   let total = 0;
@@ -71,8 +69,7 @@ console.log("sum():", sum()); // 0
 const sumWithReduce = (...nums) => nums.reduce((total, n) => total + n, 0);
 console.log("sumWithReduce(2, 4, 6, 8):", sumWithReduce(2, 4, 6, 8));
 // ─────────────────────────────────
-// 6. Destructuring Parameters -- สํ
-าคัญมาก;
+// 6. Destructuring Parameters -- สําคัญมาก;
 // ─────────────────────────────────
 function printUser({ name, age, city }) {
   console.log(`${name}, ${age} years old, from ${city}`);
